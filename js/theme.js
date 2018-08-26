@@ -18,8 +18,10 @@ jQuery(document).ready(function($){
 	/*=======================================
 		Preloader fade out 
 	=========================================*/
-
-    $('#preloader').fadeOut();
+	setTimeout(function(){
+		$('#preloader').fadeOut()
+	},1000)
+    
 	var windowWidth = $(window).width();
 
 	/*=======================================
