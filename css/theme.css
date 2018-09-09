@@ -807,7 +807,7 @@ frame {
   padding: 90px 15px 55px;
 }
 .about-bg {
-  background: url('../images/about-bg.jpg') center center no-repeat;
+  background: url('../images/about.jpeg') center center no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;
@@ -1168,8 +1168,9 @@ frame {
 -----------------------------------------*/
 .booking {
   padding: 70px 0;
-  background: url('../images/book_bg.jpg') center center no-repeat;
+  background: url('../images/casa.jpeg') center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .booking-form-item {
   margin-bottom: 15px;
@@ -3850,4 +3851,7 @@ frame {
   to {
     -webkit-transform: rotate(359deg);
   }
+}
+h2.titulo-slider {
+  font-size: 32px !important;
 }
