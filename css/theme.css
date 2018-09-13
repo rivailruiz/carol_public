@@ -798,6 +798,20 @@ frame {
   font-size: 13px;
 }
 /*---------------------------------------
+   8 Missao           
+-----------------------------------------*/
+.missao {
+  position: relative;
+}
+.missao-text {
+  padding: 90px 15px 55px;
+}
+.missao-bg {
+  background: url('../images/about-bg.jpg') center center no-repeat;
+  background-size: cover;
+  height: 370px;
+}
+/*---------------------------------------
    8 ABOUT US           
 -----------------------------------------*/
 .about {
@@ -807,7 +821,7 @@ frame {
   padding: 90px 15px 55px;
 }
 .about-bg {
-  background: url('../images/about.jpeg') center center no-repeat;
+  background: url('../images/casa.jpeg') center center no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;
