@@ -173,7 +173,7 @@ h4 {
   background: #6fdcdc;
 }
 .bg-child-3 {
-  background: #e6ccff;
+  background: #b366ff;
 }
 .bg-child-4 {
   background: #7300e6;
@@ -787,7 +787,7 @@ frame {
   padding: 90px 15px 55px;
 }
 .missao-bg {
-  background: url('../images/about-bg.jpg') center center no-repeat;
+  background: url('../images/missao.jpg') center center no-repeat;
   background-size: cover;
   height: 370px;
 }
