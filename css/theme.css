@@ -682,6 +682,7 @@ frame {
   position: relative;
   color: #095c83;
   top: 90px;
+  margin-bottom: 90px;
 }
 .slider .container {
   position: absolute;
