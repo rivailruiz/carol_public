@@ -603,7 +603,7 @@ frame {
   z-index: 111;
   position: absolute;
   width: 100%;
-  top: 133px;
+  top: 85px;
 }
 .top-menu-logo {
   height: 45px;
@@ -681,6 +681,7 @@ frame {
 .slider {
   position: relative;
   color: #095c83;
+  top: 90px;
 }
 .slider .container {
   position: absolute;
