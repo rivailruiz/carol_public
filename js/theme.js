@@ -1,3 +1,16 @@
+
+  $(window).load(function(){
+    $('#paraQuem').on('change', function(){
+    	if($("#paraQuem").val() == 'souResponsavel'){
+    		$('.divParentesco').show();
+    	}else{
+    		$('.divParentesco').hide();
+    	}
+    })
+  })
+
+
+
 /*“use strict” mode on* "use strict"; */
 
 /* Fix the position of an element when it is about to be scrolled off-screen */
@@ -14,6 +27,11 @@ function smartPosition(obj) {
 
 
 jQuery(document).ready(function($){
+
+
+
+
+	
 	
 	/*=======================================
 		Preloader fade out 
@@ -528,7 +546,7 @@ jQuery(document).ready(function($){
 function initialize() {
 
 	/* ==== CENTER AND MARKER COORDINATES ====*/
-	var myLatlng = new google.maps.LatLng(27.92936524,-82.5084883);
+	var myLatlng = new google.maps.LatLng(-22.9535044,-43.192635);
 
 	/* ==== MAP OPTIONS ====*/
 	var mapOptions = {
