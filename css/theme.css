@@ -137,7 +137,7 @@ h4 {
   font-size: 15px;
 }
 .section-title {
-  color: #5266b2;
+  color: #fff7e6;
   margin-bottom: 35px;
   text-transform: uppercase;
 }
@@ -152,10 +152,10 @@ h4 {
   font-weight: 700;
 }
 .color-primary-1 {
-  color: #5266b2;
+  color: #fff7e6;
 }
 .color-primary-2 {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .color-child-5 {
   color: #2dc4ff;
@@ -167,16 +167,16 @@ h4 {
   background: #f1f3f9;
 }
 .bg-primary-2 {
-  background: #2dc4ff;
-}
-.bg-child-2 {
-  background: #997ee6;
-}
-.bg-child-3 {
   background: #5266b2;
 }
+.bg-child-2 {
+  background: #6fdcdc;
+}
+.bg-child-3 {
+  background: #e6ccff;
+}
 .bg-child-4 {
-  background: #34437a;
+  background: #7300e6;
 }
 .bg-pattern {
   background: url('../images/bg_pattern_wt_transp2.png') repeat !important;
@@ -191,7 +191,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2dc4ff;
+  color: #5266b2;
   text-decoration: none;
   outline: none;
 }
@@ -225,7 +225,7 @@ ul.text-list li:before {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #5266b2;
+  background: #fff7e6;
 }
 input,
 textarea {
@@ -236,7 +236,7 @@ textarea {
 }
 input:focus,
 textarea:focus {
-  border: 2px solid #2dc4ff;
+  border: 2px solid #5266b2;
 }
 frame {
   border: none;
@@ -258,11 +258,11 @@ frame {
   color: #fff;
 }
 .help-green {
-  color: #2dc4ff;
-  border: 2px solid #2dc4ff;
+  color: #5266b2;
+  border: 2px solid #5266b2;
 }
 .help-green:hover {
-  background: #2dc4ff;
+  background: #5266b2;
   color: #fff;
 }
 .help-red {
@@ -292,7 +292,7 @@ frame {
   padding: 9px 40px;
 }
 .btn-default {
-  background: #2dc4ff;
+  background: #5266b2;
   color: #fff;
   border: none;
   border-radius: 20px;
@@ -312,7 +312,7 @@ frame {
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background: #2dc4ff;
+  background: #5266b2;
   color: #fff;
 }
 .btn-primary-1 {
@@ -361,7 +361,7 @@ frame {
 }
 .carousel-btn:hover,
 .carousel-btn:focus {
-  background: #5266b2;
+  background: #fff7e6;
 }
 .carousel-next {
   right: -35px;
@@ -384,7 +384,7 @@ frame {
 }
 .datepicker th.picker-switch:hover {
   color: #fff !important;
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
 }
 .datepicker th.prev {
   border-radius: 0 !important;
@@ -392,7 +392,7 @@ frame {
 }
 .datepicker th.prev:hover {
   color: #fff !important;
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
 }
 .datepicker th.next {
   border-radius: 0 !important;
@@ -400,22 +400,22 @@ frame {
 }
 .datepicker th.next:hover {
   color: #fff !important;
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
 }
 .datepicker td.day.active.today {
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
   border-radius: 0 !important;
   color: #fff !important;
   text-shadow: none !important;
 }
 .datepicker td.day.active {
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
   border-radius: 0 !important;
   color: #fff !important;
   text-shadow: none !important;
 }
 .datepicker td.day.today {
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
   border-radius: 0 !important;
   color: #fff !important;
   text-shadow: none !important;
@@ -425,24 +425,24 @@ frame {
 }
 .datepicker td.day:hover {
   color: #fff !important;
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
 }
 .datepicker td.day.old {
   color: #e4edee !important;
 }
 .datepicker td.day.old:hover {
   color: #fff !important;
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
 }
 .datepicker td.day.new {
   color: #becacf !important;
 }
 .datepicker td.day.new:hover {
   color: #fff !important;
-  background: #2dc4ff !important;
+  background: #5266b2 !important;
 }
 .bootstrap-datetimepicker-widget table td span.active {
-  background-color: #2dc4ff !important;
+  background-color: #5266b2 !important;
   color: #ffffff;
   text-shadow: none !important;
 }
@@ -467,7 +467,7 @@ frame {
 }
 .time-f .bootstrap-datetimepicker-widget table td span:hover {
   color: #fff;
-  background: #2dc4ff;
+  background: #5266b2;
 }
 .time-f .bootstrap-datetimepicker-widget table td {
   height: 30px;
@@ -477,7 +477,7 @@ frame {
 .time-f .bootstrap-datetimepicker-widget table td.hour:hover,
 .time-f .bootstrap-datetimepicker-widget table td.minute:hover,
 .time-f .bootstrap-datetimepicker-widget table td.second:hover {
-  background: #2dc4ff;
+  background: #5266b2;
   border-radius: 3px;
   color: #fff;
 }
@@ -550,7 +550,7 @@ frame {
   margin-top: 7px;
 }
 .header-phone i {
-  color: #2dc4ff;
+  color: #5266b2;
   margin-right: 5px;
   font-size: 22px;
   position: relative;
@@ -749,7 +749,7 @@ frame {
   padding: 70px 0;
 }
 .services-1-title {
-  color: #5266b2;
+  color: #fff7e6;
   text-transform: uppercase;
   font-size: 24px;
   margin-bottom: 60px;
@@ -762,14 +762,14 @@ frame {
   color: #455f68;
 }
 .services-1 .service h3 {
-  color: #5266b2;
+  color: #fff7e6;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 25px;
 }
 .services-1 .service-icon {
-  color: #5266b2;
+  color: #fff7e6;
   font-size: 70px;
   line-height: 70px;
   margin-bottom: 35px;
@@ -855,7 +855,7 @@ frame {
   transition: all 300ms;
 }
 .doctors-item-name {
-  color: #5266b2;
+  color: #fff7e6;
   font-size: 15px;
   font-weight: 600;
   margin: 20px 0 2px 0;
@@ -876,7 +876,7 @@ frame {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #5266b2;
+  background: #fff7e6;
   color: #fff;
   font-size: 17px;
   line-height: 29px;
@@ -1011,7 +1011,7 @@ frame {
 }
 .doctor-info-name {
   text-align: center;
-  color: #5266b2;
+  color: #fff7e6;
   font-size: 18px;
   font-weight: 600;
 }
@@ -1030,7 +1030,7 @@ frame {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: #5266b2;
+  background: #fff7e6;
   color: #fff;
   font-size: 17px;
   line-height: 29px;
@@ -1102,7 +1102,7 @@ frame {
   font-weight: 600;
   margin-bottom: 25px;
   text-transform: uppercase;
-  color: #5266b2;
+  color: #fff7e6;
 }
 .doctor-text-booking {
   background: #f1f3f9;
@@ -1135,7 +1135,7 @@ frame {
   font-size: 12px;
 }
 .view:hover {
-  background: #5266b2;
+  background: #fff7e6;
 }
 .view .t-tooltip-text-body {
   padding: 0;
@@ -1220,7 +1220,7 @@ frame {
   font-size: 17px;
   left: 30px;
   top: 14px;
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .booking-form-item.has-error:before {
   color: #f9755f;
@@ -1382,13 +1382,13 @@ frame {
   margin-left: 0px;
 }
 .br-theme-fontawesome-stars-o .br-widget a.br-active:after {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .br-theme-fontawesome-stars-o .br-widget a.br-selected:after {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .br-theme-fontawesome-stars-o .br-widget a.br-fractional:after {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 /*---------------------------------------
    13 REVIEWS           
@@ -1443,14 +1443,14 @@ frame {
   bottom: 40px;
 }
 .review-item:hover {
-  border: 2px solid #5266b2;
+  border: 2px solid #fff7e6;
 }
 @-moz-document url-prefix() {
   .review-item {
     border-bottom: 3px solid #fff;
   }
   .review-item:hover {
-    border-bottom: 3px solid #5266b2;
+    border-bottom: 3px solid #fff7e6;
   }
 }
 .owl-review2 .review-item {
@@ -1520,7 +1520,7 @@ frame {
   transition: all 300ms;
 }
 .blog-item-date {
-  background: #5266b2;
+  background: #fff7e6;
   position: absolute;
   right: 75px;
   bottom: 0;
@@ -1596,7 +1596,7 @@ frame {
   position: relative;
 }
 .blog-2.blog .blog-item-date {
-  background: #34437a;
+  background: #7300e6;
   position: relative;
   float: left;
   left: 0;
@@ -1604,7 +1604,7 @@ frame {
   width: 110px;
 }
 .blog-2.blog .blog-item-comments {
-  background: #5266b2;
+  background: #fff7e6;
   position: relative;
   float: left;
   width: 65px;
@@ -1769,7 +1769,7 @@ frame {
 }
 .blog-2.blog .blog-item-media-title {
   margin: 50px 0 10px;
-  color: #5266b2;
+  color: #fff7e6;
 }
 .blog-2.blog .blog-item-commform {
   background: #f1f3f9;
@@ -1779,7 +1779,7 @@ frame {
   margin-top: 50px;
 }
 .blog-2.blog .blog-item-commform h3 {
-  color: #5266b2;
+  color: #fff7e6;
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -1811,7 +1811,7 @@ frame {
 }
 .related-items-title {
   margin: 50px 0 10px;
-  color: #5266b2;
+  color: #fff7e6;
 }
 .related-item-overlay {
   position: absolute;
@@ -2054,7 +2054,7 @@ frame {
 }
 .footer a:hover,
 .footer a:focus {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .footer-title {
   color: #fff;
@@ -2095,7 +2095,7 @@ frame {
   margin-bottom: 20px;
 }
 .footer-item-3-phone i {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .footer-item-3-location {
   font-size: 13px;
@@ -2125,7 +2125,7 @@ frame {
   margin-right: 3px;
 }
 .footer-item-3-socials a:hover {
-  background: #2dc4ff;
+  background: #5266b2;
   color: #fff;
 }
 .footer-item-3-socials a i {
@@ -2243,7 +2243,7 @@ frame {
   color: #997ee6;
 }
 .breadcrumb li a:hover {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .breadcrumb li.breadcrumb-home {
   padding-left: 0;
@@ -2279,7 +2279,7 @@ frame {
   max-width: 100%;
 }
 .history-text h3 {
-  color: #5266b2;
+  color: #fff7e6;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -2290,14 +2290,14 @@ frame {
   width: 100%;
 }
 .history .image-carousel .carousel-btn {
-  background: #5266b2;
+  background: #fff7e6;
   color: #fff;
   bottom: 15px;
   top: auto;
 }
 .history .image-carousel .carousel-btn:hover,
 .history .image-carousel .carousel-btn:focus {
-  background: #2dc4ff;
+  background: #5266b2;
 }
 .history .image-carousel .carousel-next {
   left: 55px;
@@ -2309,7 +2309,7 @@ frame {
   padding: 70px 0;
 }
 .mission-text h3 {
-  color: #5266b2;
+  color: #fff7e6;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -2317,7 +2317,7 @@ frame {
    18 MAKE FORM           
 -----------------------------------------*/
 .make {
-  background: #2dc4ff;
+  background: #5266b2;
   padding: 45px 0;
   color: #fff;
 }
@@ -2335,7 +2335,7 @@ frame {
 .make-button .btn-default:hover,
 .make-button .btn-default:focus {
   background: #fff;
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .make-button .plus {
   line-height: 0;
@@ -2479,7 +2479,7 @@ frame {
   color: #997ee6;
 }
 .search button:hover {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 /*---------------------------------------
    19 RIGHT BAR           
@@ -2857,7 +2857,7 @@ frame {
   height: 50px;
 }
 .prices-item-table-row.row-selected {
-  border: 2px solid #2dc4ff;
+  border: 2px solid #5266b2;
 }
 .prices-item-table-icons {
   padding-left: 10px;
@@ -2882,7 +2882,7 @@ frame {
   text-align: right;
 }
 .prices-item-table-cost-new {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .prices-item-table-cost-old {
   color: #becacf;
@@ -2911,7 +2911,7 @@ frame {
 }
 .prices-item-offer-cost {
   position: absolute;
-  background: #2dc4ff;
+  background: #5266b2;
   color: #fff;
   right: 35px;
   bottom: -20px;
@@ -2994,7 +2994,7 @@ frame {
   display: inline-block;
 }
 .map-info-phone i {
-  color: #2dc4ff;
+  color: #5266b2;
 }
 .map-info-mail {
   overflow: hidden;
@@ -3035,7 +3035,7 @@ frame {
   margin: 0 2px;
 }
 .map-info-socials a:hover {
-  background: #2dc4ff;
+  background: #5266b2;
 }
 .get {
   padding: 60px 0 70px 0;
@@ -3432,7 +3432,7 @@ frame {
   padding: 115px 35px 0 0;
 }
 .bookform.bookform-1 .bookform-right-info-1 {
-  background: #2dc4ff;
+  background: #5266b2;
   color: #fff;
   font-size: 12px;
   padding: 15px;
@@ -3513,7 +3513,7 @@ frame {
   font-size: 18px;
 }
 .selectBox-dropdown:focus {
-  border-color: #2dc4ff;
+  border-color: #5266b2;
 }
 .selectBox-dropdown-menu {
   border-bottom-left-radius: 3px;
@@ -3728,7 +3728,7 @@ frame {
 .show-menu {
   background: #fff;
   border: 1px solid #e4edee;
-  color: #5266b2;
+  color: #fff7e6;
   box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.07);
   width: 44px;
   height: 44px;
