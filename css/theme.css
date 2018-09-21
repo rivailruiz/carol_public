@@ -531,12 +531,12 @@ frame {
   margin-bottom: 52px;
 }
 .header-logo {
-  height: 65px;
+  height: 45px;
   font-size: 30px;
 }
 .header-logo img {
   position: relative;
-  height: 60px;
+  height: 65px;
   margin-right: 7px;
   top: 1px;
 }
