@@ -144,6 +144,14 @@ RESPONSIVE FIXES
 }
 
 @media (max-width: 768px) {
+
+    .slider {
+        height: 487px;
+        position: relative;
+        color: #45579d;
+        top: 200px;
+        margin-bottom: 90px;
+    }
     .top-bar {
         font-size: 11px;
     }
@@ -159,7 +167,7 @@ RESPONSIVE FIXES
         margin: 0 auto;
     }
     .header-logo img {
-        width: 23px;
+        /*width: 23px;*/
         margin-right: 0px;
         top: -1px;
     }
@@ -174,7 +182,7 @@ RESPONSIVE FIXES
         margin: 0 auto;
     }
     .top-menu{
-        top: 253px;
+        top: 203px;
         max-height: 100%;
         overflow-y: auto;
     }

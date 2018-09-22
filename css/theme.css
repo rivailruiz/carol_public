@@ -801,8 +801,8 @@ frame {
   padding: 90px 15px 55px;
 }
 .about-bg {
-  background: url('../images/casa.jpeg') center center no-repeat;
-  background-size: cover;
+  background: url('../images/casa.jpg') center center no-repeat;
+  background-size: contain;
   position: absolute;
   right: 0;
   top: 0;
@@ -2048,6 +2048,7 @@ frame {
 .footer {
   position: relative;
   background: #f1f3f9;
+  border-top: 2px solid #acb8bc;
 }
 .footer a {
   color: #2dc4ff;
