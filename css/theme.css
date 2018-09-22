@@ -802,7 +802,7 @@ frame {
 }
 .about-bg {
   background: url('../images/casa.jpg') center center no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   right: 0;
   top: 0;
