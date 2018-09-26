@@ -544,44 +544,22 @@ jQuery(document).ready(function($){
 
 
 function initialize() {
-
-	/* ==== CENTER AND MARKER COORDINATES ====*/
-	var myLatlng = new google.maps.LatLng(-22.9535044,-43.192635);
-
-	/* ==== MAP OPTIONS ====*/
 	var mapOptions = {
-		center: myLatlng,
-		zoom: 17,
-		scrollwheel: false,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	};
-	
-	/* ==== MAP INITIALIZE ====*/
-	var map = new google.maps.Map(document.getElementById("footer-item-4"), mapOptions);
-
-	if($('*').is('#map')) {
-		var map1 = new google.maps.Map(document.getElementById("map"), mapOptions);
-	}
-
-	/* ==== MARKER IMAGE ====*/
-	var image = 'images/marker.png';
-	
-	/* ==== SET MARKER ====*/
-	var marker = new google.maps.Marker({
-		position: myLatlng,
-		map: map,
-		icon: image
-	});
-
-	if($('*').is('#map')) {
-		var marker = new google.maps.Marker({
-			position: myLatlng,
-			map: map1,
-			icon: image
-		});
-	}
+        center: new google.maps.LatLng(-22.9535044,-43.192635),
+        zoom: 17,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+            mapTypeIds: ['roadmap', 'terrain']
+          }
+    }
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 }
+
+
+
 window.onload = function(){
 	initialize();
 }
